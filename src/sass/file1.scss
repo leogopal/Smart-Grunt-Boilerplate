@@ -1,0 +1,15 @@
+$color1: #a68b52;
+$color2: #c4a364;
+$color3: #9f8551;
+
+.hello-1 {
+	background: $color1;
+	&.can-you-hear-me {
+		color: $color2;
+	}
+
+	.hi-back {
+		color: $color3;
+		background: #fff;
+	}
+}
